@@ -21,7 +21,6 @@ Tests:
     Fizz
     >>> fizzbuzz(30)
     FizzBuzz
-
 """
 
 # Use this to test your solution. Don't edit it!
@@ -32,3 +31,19 @@ def run_tests():
 
 # Edit this function
 def fizzbuzz(n):
+
+    if n % 5 == 0 and n % 3 == 0:
+        print("FizzBuzz")
+
+    elif n % 3 == 0:
+        print("Fizz")
+
+    elif n % 5 ==0:
+        print("Buzz")
+
+    else:
+        print(n)
+              
+    
+
+    
